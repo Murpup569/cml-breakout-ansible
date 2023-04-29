@@ -1,4 +1,4 @@
-# cml-breakout-for-ansible
+# Ansible Connector for Cisco Modeling Labs (CML)
 This allows you to use Ansible to configure nodes in Cisco Modeling Labs (CML) without ssh/network.
 This is very rudimentary and should only be used to get ssh and network connectivity running.
 
