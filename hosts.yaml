@@ -1,0 +1,88 @@
+---
+lab:
+  hosts:
+    CML1:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device01
+    CML2:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device02
+    CML3:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device03
+    CML4:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device04
+    CML5:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device05
+    CML6:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device06
+    CML7:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device07
+    CML8:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device08
+    CML9:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device09
+    CML10:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device10
+    CML11:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device11
+    CML12:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device12
+    CML13:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device13
+    CML14:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device14
+    CML15:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device15
+    CML16:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device16
+    CML17:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device17
+    CML18:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device18
+    CML19:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device19
+    CML20:
+      ansible_host: 192.168.15.26
+      ansible_port: 2222
+      ansible_user: device20
+  vars:
+    ansible_connection: network_cli
+    ansible_network_os: ios
+    ansible_ssh_pass: password
+    ansible_become: true
