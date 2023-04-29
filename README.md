@@ -1,10 +1,10 @@
 # cml-breakout-for-ansible
-This allows you to use Ansible to configure things without ssh/network first.
-This is very rudimentary and should really only be used to get ssh and network connectivity running.
+This allows you to use Ansible to configure nodes in Cisco Modeling Labs (CML) without ssh/network.
+This is very rudimentary and should only be used to get ssh and network connectivity running.
 
 ## Install
 1. Download and extract this repo
-2. Change directory into the folder
+2. Change directory into that folder
 3. Download breakout-linux-amd64 and put that in the working directory
 4. Build docker image
 ```$ sudo docker build -t ssh-telnet-container .```
