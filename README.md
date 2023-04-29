@@ -8,11 +8,11 @@ This is very rudimentary and should really only be used to get ssh and network c
 3. Download breakout-linux-amd64 and put that in the working directory
 4. Build docker image
 '''
-sudo docker build -t ssh-telnet-container .
+$ sudo docker build -t ssh-telnet-container .
 '''
 5. Start docker image
 '''
-sudo docker run -d -p 2222:22 -p 8080:8080 --name ssh-telnet ssh-telnet-container
+$ sudo docker run -d -p 2222:22 -p 8080:8080 --name ssh-telnet ssh-telnet-container
 '''
 
 ## Recomendations
