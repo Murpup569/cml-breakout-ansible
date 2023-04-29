@@ -1,5 +1,5 @@
 # cml-breakout-for-ansible
-This allows you to use ansible to configure things without ssh/network first.
+This allows you to use Ansible to configure things without ssh/network first.
 This is very rudimentary and should really only be used to get ssh and network connectivity running.
 
 ## Install
