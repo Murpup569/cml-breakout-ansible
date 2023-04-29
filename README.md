@@ -13,8 +13,8 @@ This is very rudimentary and should only be used to get ssh and network connecti
 
 ## Recomendations
 - You may want to change the passwords for the user accounts.
-- If you have more than 20 nodes you will need to increase the amount of user accounts in >createusers.sh
-- If all the devices are stuck in configuration mode run the script >end.sh
+- If you have more than 20 nodes you will need to increase the amount of user accounts in createusers.sh
+- If all the devices are stuck in configuration mode run the script end.sh
 
 ## Extra
-I have also created an Ansible inventory file that you may use >hosts.yaml
+I have also created an Ansible inventory file that you may use hosts.yaml
