@@ -12,7 +12,9 @@ This is very rudimentary and should really only be used to get ssh and network c
 >sudo docker run -d -p 2222:22 -p 8080:8080 --name ssh-telnet ssh-telnet-container
 
 ## Recomendations
-You may want to change the passwords for the user accounts.
-If you have more than 20 nodes you will need to increase the amount of user account in createusers.sh
+- You may want to change the passwords for the user accounts.
+- If you have more than 20 nodes you will need to increase the amount of user account in createusers.sh
+- If you have an issue that all the devices are stuck in configuration mode run the script end.sh
+
+## Extra
 I have also created an Ansible inventory file that you may use hosts.yaml
-If you have an issue that all the devices are stuck in configuration mode run the script end.sh
