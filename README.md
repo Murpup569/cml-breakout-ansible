@@ -3,7 +3,7 @@ This allows you to use ansible to configure things without ssh/network first.
 This is very rudimentary and should really only be used to get ssh and network connectivity running.
 
 ## Install
-1. Download extract this repo
+1. Download and extract this repo
 2. Change directory into the folder
 3. Download breakout-linux-amd64 and put that in the working directory
 4. Build docker image
